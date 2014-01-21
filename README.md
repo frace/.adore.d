@@ -10,8 +10,6 @@ I want the deployment process to be modular, so git submodules are not a bad ide
 - Git
 
 * * *
-
-# References
 - [Using GNU Stow to manage your dotfiles][demo-sztow-1]
 
 [demo-stow-1]: http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html
