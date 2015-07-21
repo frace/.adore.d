@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
-base_dir="${HOME}/.dotfiles.d"
+bin_dir="$(cd $(dirname "$0") && pwd)"
+base_dir="${bin_dir%\/*}"
 
 deploy_dotfiles() {
-    local etc="${base_dir}/etc"
+    local etc_dir="${base_dir}/etc"
 
-    for file in "${etc}"/*/*; do
+    for file in "${etc_dir}"/*/*; do
         if [[ ! "$file" =~ .md$ ]]; then
             ln -s "$file" "${HOME}/.${file##*\/}" && {
                 echo ">> Success: File \"${file}\" linked."
