@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+bin_dir="$(cd $(dirname "$0") && pwd)"
+base_dir="${bin_dir%\/*}"
+
+clean_dotfiles() {
+    local etc_dir="${base_dir}/etc"
+
+    for file in "${etc_dir}"/*/*; do
+        if [[ ! "$file" =~ .md$ ]]; then
+            rm "${HOME}/.${file##*\/}" && {
+                echo ">> Success: File \"${file}\" unlinked."
+            }
+        fi
+    done
+}
+
+{
+    clean_dotfiles 
+}
