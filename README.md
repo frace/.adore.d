@@ -5,6 +5,11 @@ simple.
 
 [what-adored]:https://github.com/frace/.adore.d
 
+## Depenencies
+- Bash
+- Git or unzip
+
+
 ## Get it!
 ``
 cd ~/
@@ -19,7 +24,7 @@ cd ~/.adore.d/bin/
 ``
 
 
-+ ## Bugs
-+ You are welcome to report bugs at the [project bugtracker][bugs-tracker] at github.com.
-+
-+ [bugs-tracker]: https://github.com/frace/.adore.d/issues
+### Bugs
+You are welcome to report bugs at the [project bugtracker][bugs-tracker] at github.com.
+
+[bugs-tracker]: https://github.com/frace/.adore.d/issues
