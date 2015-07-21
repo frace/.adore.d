@@ -26,7 +26,7 @@ cd ~/.adore.d/bin/
 To unlink deployed dotfiles just do:
 ```
 cd ~/.adore.d/bin/
-./adore-clean
+./adore-unlink
 ```
 
 
