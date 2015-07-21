@@ -1,9 +1,9 @@
-# What is .adore.d?
-[.adore.d][what-adored] is «**a** **do**tfiles **re**pository **d**irectory».
+# What is Adore?
+[Adore][what-adore] is «**A** **do**tfiles **re**pository».
 It tries to work with as little dependencies as possible and to keep things
 simple.
 
-[what-adored]:https://github.com/frace/.adore.d
+[what-adore]:https://github.com/frace/.adore.d
 
 ## Depenencies
 - Bash
