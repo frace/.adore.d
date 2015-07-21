@@ -15,6 +15,6 @@ task like that.
 - Bash
 
 * * *
-- [Using GNU Stow to manage your dotfiles][demo-stow-1]
+~~- [Using GNU Stow to manage your dotfiles][demo-stow-1]~~
 
 [demo-stow-1]: http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html
