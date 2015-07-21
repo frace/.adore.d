@@ -3,7 +3,7 @@
 bin_dir="$(cd $(dirname "$0") && pwd)"
 base_dir="${bin_dir%\/*}"
 
-clean_dotfiles() {
+unlink_dotfiles() {
     local etc_dir="${base_dir}/etc"
 
     for file in "${etc_dir}"/*/*; do
@@ -16,5 +16,5 @@ clean_dotfiles() {
 }
 
 {
-    clean_dotfiles 
+    unlink_dotfiles 
 }
