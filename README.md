@@ -4,7 +4,7 @@ Ideally I'd like to involve as little dependenies as possible in order to deploy
 Also I did not decide yet if I will use git submodules for each application's dotfiles.
 I want the deployment process to be modular, so git submodules are not a bad idea at all.~~
 
-I will use a simple *bash* script to deloy the dotfiles. Everything else would be
+I will use a simple *bash* script to deploy the dotfiles. Everything else would be
 an additional dependency. IMHO using solutions like vcsh etc. are overkill for a simple
 task like that.
 
