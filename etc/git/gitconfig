@@ -1,0 +1,12 @@
+[init]
+        templatedir = ~/.git/templates
+[user]
+        name = frace
+        email = frace@users.noreply.github.com
+[filter "media"]
+        clean = git-media-clean %f
+        smudge = git-media-smudge %f
+[mergetool]
+        keepBackup = true
+[alias]
+        passport = !${HOME}/.git/hooks/bin/git-passport/git-passport.py

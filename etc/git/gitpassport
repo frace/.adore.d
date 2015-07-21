@@ -1,0 +1,13 @@
+[general]
+enable_hook = True
+sleep_duration = 0
+
+[passport 0]
+email = frace@users.noreply.github.com 
+name = frace
+service = github.com
+
+[passport 1]
+email = demo@demo.demo
+name = demo
+service = demo.demo
