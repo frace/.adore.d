@@ -20,7 +20,7 @@ git clone https://github.com/frace/.adore.d.git
 ## Deployment
 ```
 cd ~/.adore.d/bin/
-./adore-deploy
+./adore-link
 ```
 
 To unlink deployed dotfiles just do:
