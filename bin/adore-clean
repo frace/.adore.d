@@ -8,7 +8,7 @@ clean_dotfiles() {
 
     for file in "${etc_dir}"/*/*; do
         if [[ ! "$file" =~ .md$ ]]; then
-            rm "${HOME}/.${file##*\/}" && {
+            unlink "${HOME}/.${file##*\/}" && {
                 echo ">> Success: File \"${file}\" unlinked."
             }
         fi
