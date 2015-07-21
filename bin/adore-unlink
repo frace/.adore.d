@@ -18,3 +18,5 @@ unlink_dotfiles() {
 {
     unlink_dotfiles 
 }
+
+exit 0
