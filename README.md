@@ -11,7 +11,7 @@ task like that.
 [source-stow]: https://www.gnu.org/software/stow/
 
 ## Dependencies so far
-- Git
+- Git or unzip
 - Bash
 
 * * *
