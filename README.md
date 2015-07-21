@@ -23,6 +23,12 @@ cd ~/.adore.d/bin/
 ./adore-deploy
 ```
 
+To unlink deployed dotfiles just do:
+```
+cd ~/.adore.d/bin/
+./adore-clean
+```
+
 
 ### Bugs
 You are welcome to report bugs at the [project bugtracker][bugs-tracker] at github.com.
