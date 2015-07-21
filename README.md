@@ -11,17 +11,17 @@ simple.
 
 
 ## Get it!
-``
+```
 cd ~/
 git clone https://github.com/frace/.adore.d.git
-``
+```
 
 
 ## Deployment
-``
+```
 cd ~/.adore.d/bin/
 ./deploy
-``
+```
 
 
 ### Bugs
